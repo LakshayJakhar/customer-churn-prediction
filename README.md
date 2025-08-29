@@ -58,10 +58,3 @@ Customers with **month-to-month contracts**, **short tenure**, and **higher char
 - Provides insights into **why customers churn** → helps business adjust pricing, contracts, or customer support.  
 - Can save revenue by focusing on customers with the highest churn probability.
 
----
-
-## 🚀 Next Steps
-- Improve recall for churn by:
-  - Using **class balancing (SMOTE, class_weight)**.
-  - Trying **XGBoost or LightGBM** for better performance.
-- Deploy as a **Streamlit app** where business users can enter customer details and get churn prediction in real time.
