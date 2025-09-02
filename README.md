@@ -20,7 +20,7 @@ This project predicts **which customers are at risk of churning** using machine 
    - Encoded categorical variables into numeric (Yes/No → 1/0, One-hot encoding for multi-category features).
    - Removed duplicates, dropped `customerID`.
 
-2. **Modeling**
+2. **Modeling**  
    - Split dataset into **80% training** and **20% testing**.
    - Trained two models:
      - Logistic Regression (baseline)
@@ -47,7 +47,7 @@ It correctly predicted **927 customers who stayed** and **209 customers who chur
 
 ### Feature Importance (Random Forest)
 Random Forest analysis showed that **contract type**, **tenure**, and **monthly charges** were the most important factors influencing churn.  
-Customers with **month-to-month contracts**, **short tenure**, and **higher charges** are most at risk.  
+Customers with **month-to-month contracts**, **short tenure**, and **higher charges** are most  at risk.  
 
 ![Feature Importance](assets/Influencing_Churn.png)
 
